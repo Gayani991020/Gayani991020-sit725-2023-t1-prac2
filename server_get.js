@@ -8,7 +8,7 @@ app.get("/addTwonumber",(req,res)=>{
 const n1=parseInt(req.query.n1);
 const n2=parseInt(req.query.n2);
 const result = addTwoNumber(n1,n2);
-res.json({statuscode:200, Plus_Calcuation_of: n1 , and:n2 ,Answer:result });
+res.json({statuscode:200, Data: n1 , and:n2 ,Answer:result });
 });
 
 
